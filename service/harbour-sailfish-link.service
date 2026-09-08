@@ -1,0 +1,12 @@
+[Unit]
+Description=Sailfish Link local discovery announcer
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/harbour-sailfish-link-discovery
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

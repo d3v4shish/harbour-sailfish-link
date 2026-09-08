@@ -1,0 +1,15 @@
+# Sailfish SDK, RPM, and qmake output
+.sfdk/
+.rpmbuild/
+deployroot/
+RPMS/
+*.rpm
+*.tar.bz2
+documentation.list
+Makefile
+*.o
+moc_*.cpp
+moc_*.o
+.tmp/
+app/harbour-sailfish-link
+service/harbour-sailfish-link-discovery

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Sailfish Link
+Icon=harbour-sailfish-link
+Exec=harbour-sailfish-link
+X-Nemo-Application-Type=silica-qt5
